@@ -1,0 +1,105 @@
+.row{
+	
+	position: absolute;
+	width: 1200px;
+	height: 640px;
+	background: #2a1163;
+	display: flex;
+	margin-left: 5%;
+
+}
+
+.col1{
+	margin: 2px;
+	width: 30%;
+	height: 75px;
+	background: #f9f9f9;
+	display: flex;
+	border-radius:  0px 0px 30px 30px ;
+
+
+}
+
+.col2{
+	width: 70%;
+	height: 575px;
+	background: #f9f9f9;
+	display: flex;
+	border-radius: 0px 0px 10px 10px;
+	
+
+}
+
+
+body{
+	width: auto;
+    height: auto;
+ 
+    background: #240c54;
+}
+
+
+table {
+
+	font-family: arial, sans-serif;
+  border-collapse: collapse;
+
+  display: flex;
+
+}
+
+
+#uno{
+	background: #040014;
+	width: 80px;
+	height: 70px;
+	
+}
+#dos{
+	width: 80px;
+	height: 70px;
+	
+}
+
+h1{
+	 font-family: arial, sans-serif;
+	 font-size: 24px;
+	 margin-left: 15px;
+}
+.ficha1{
+	width: 60px;
+	height: 60px;
+	border-radius: 30px;
+	background: #0e51f3;
+	display: flex;
+	box-shadow: 1px 2px 4px 0px black;
+	margin: 5px;
+}
+.ficha2{
+	width: 60px;
+	height: 60px;
+	border-radius: 30px;
+	background: #ff1212;
+	display: flex;
+	box-shadow: 1px 2px 4px 0px black;
+margin: 5px;
+}
+.main-titulo {
+  width: 185px;
+  height: 100px;
+  position: relative;
+  -webkit-animation-name: main; /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
+  -webkit-animation-direction: reverse; /* Safari 4.0 - 8.0 */
+  animation-name: main;
+  animation-duration: 4s;
+  animation-direction: reverse;  
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes main {
+  -0%   {color:red; left:0px; top:0px;}
+  20%  {color:yellow; left:70px; top:0px;}
+  
+  
+}
